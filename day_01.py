@@ -1,3 +1,4 @@
+from func1 import func
 a = [1, 2, 3]
 b = a
 c = [1, 2, 3]
@@ -27,7 +28,7 @@ for i in range(len(a) - 1):
             a[j], a[j + 1] = a[j + 1], a[j]
         # print(a)
 print(a)
-#集合、字典
+# 集合、字典
 '''
 set无序不重复的数据序列
 '''
@@ -46,8 +47,8 @@ set无序不重复的数据序列
 # print(set3)
 # set3.remove('a')
 # print(set3,set4,sep='\n')
-#字典是一种可变容器类型，可以存储任意类型的对象
-d1 = {1:'Li Lei',2:'Lily'}
+# 字典是一种可变容器类型，可以存储任意类型的对象
+d1 = {1: 'Li Lei', 2: 'Lily'}
 # print(d1)
 # print(d1.keys())
 # print(d1.values())
@@ -60,22 +61,21 @@ d1 = {1:'Li Lei',2:'Lily'}
 # d1[4] = 'Jack'
 # del d1[1]
 # print(d1)
-#元祖类型
-t1 = (1,2)
+# 元祖类型
+t1 = (1, 2)
 t3 = (3)
 t33 = (3,)
-t2 = 1,2
+t2 = 1, 2
 t4 = ()
 # print(t1,type(t1))
 # print(t2,type(t2))
 # print(t3,type(t3),t33,type(t33),sep='\n')
 # print(type(t4))
-mylist = ['a','b','c']
-t5 = (1,2,3,4,5,mylist)
+mylist = ['a', 'b', 'c']
+t5 = (1, 2, 3, 4, 5, mylist)
 print(t5)
 mylist[1] = 'd'
 print(t5)
-#函数
-from func1 import func
+# 函数
 func()
 print(__name__)
